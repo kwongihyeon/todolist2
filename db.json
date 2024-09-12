@@ -29,6 +29,86 @@
       "id": "a1989c1b-5633-dc69-cfeb-cb99c21836a8",
       "text": "useeffect실행하는디",
       "switch": false
+    },
+    {
+      "id": "b09fd1a6-4036-14f9-5f3b-7deff087987d",
+      "text": "형",
+      "switch": false
+    },
+    {
+      "id": "6cb10779-1053-76ec-c056-be33c5eab9b6",
+      "text": "이거",
+      "switch": false
+    },
+    {
+      "id": "8d873b1f-f75a-e4e4-8135-5a9156b4db48",
+      "text": "안 되는 이유는",
+      "switch": false
+    },
+    {
+      "id": "99b4ba6a-120d-db2e-a1e5-4c07454fb175",
+      "text": "post 요청을 보내고나서",
+      "switch": false
+    },
+    {
+      "id": "fb58d117-4ee8-6418-86f2-f9b3ff5eec61",
+      "text": "그게 db에 적용되는 시간보다",
+      "switch": false
+    },
+    {
+      "id": "355f668c-f1f0-4ffb-5ff3-3c3e71db1970",
+      "text": "Settg 가 작동하는 시간이 더 빨라서",
+      "switch": false
+    },
+    {
+      "id": "f5b30944-3dc9-f70b-1138-008fba3e2c9b",
+      "text": "그런거 같아",
+      "switch": false
+    },
+    {
+      "id": "b3eb9a7f-6797-2d6e-efcc-c2dc09f4db82",
+      "text": "axios.post는 기본적으로 서버랑 통신하기 때문에 느리거든",
+      "switch": false
+    },
+    {
+      "id": "8821c43a-0ced-8788-875b-943ab598c034",
+      "text": "그래서 자바스크립트 엔진은 axios 요청을 만나면 백그라운드로 실행을 넘기고",
+      "switch": false
+    },
+    {
+      "id": "a3c5476d-a952-6565-5922-58d72ec6a007",
+      "text": "본인은 밑에 코드를 실행해",
+      "switch": false
+    },
+    {
+      "id": "9588b642-32df-c3e8-6b6e-0b53e945b5fe",
+      "text": "그래서 axios.post 요청을 보내고 db.json에 적용되기 까지 걸리는 시간보다",
+      "switch": false
+    },
+    {
+      "id": "673813af-6aa8-e83d-5cbd-3716bcbfb6ac",
+      "text": "settg 가 동작하고 useEffect도 동작하고",
+      "switch": false
+    },
+    {
+      "id": "c9e4c71b-ee1c-cd4e-2c40-8f166894f02f",
+      "text": "다시 받아오는게 더 빨라 버리면",
+      "switch": false
+    },
+    {
+      "id": "2a4cfe9f-33b9-efde-c44e-a8ec8636a826",
+      "text": "화면에 반응이 안 되는 경우가 생기는 거지",
+      "switch": false
+    },
+    {
+      "id": "2643c70c-ff63-ce2c-4d33-11846fac2fbe",
+      "text": "내가 onclick 수정해뒀으니까",
+      "switch": false
+    },
+    {
+      "id": "fe06fe1b-239c-e33e-7335-e4b18955a577",
+      "text": "확인해봐",
+      "switch": false
     }
   ]
 }

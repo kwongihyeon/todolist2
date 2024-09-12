@@ -28,11 +28,19 @@ function App() {
       text: add, // text를 key로 가지는 값은 내가 입력한 add값
       switch: sw, // 글씨 변경의 조건을 위해 체크박스 클릭시 toggle 해주기 위함
     };
+    /**
     axios.post("http://localhost:3000/totallist", total).then((res) => {
       // 새로 추가한 객체를 리스트에 넣어주는 역할
     });
     Setadd(""); // input값을 초기화 해줘서 추가 버튼을 누르면 input창이 비워지게 해주는 역할
     Settg(!tg);
+     */
+    axios.post("http://localhost:3000/totallist", total).then((res) => {
+      // 새로 추가한 객체를 리스트에 넣어주는 역할
+    }).then(()=>{
+      Setadd("")
+      Settg(!tg)
+    });
   };
 
   const onupdate = (id) => {
